@@ -1,6 +1,7 @@
 %define major                 0
 %define libname               %mklibname netfilter_cthelper %{major}
 %define libnamedevel          %mklibname netfilter_cthelper -d
+%define debug_package %{nil}
 
 Name:           libnetfilter_cthelper
 Version:        1.0.0
@@ -44,6 +45,7 @@ This package contains the development files for %{name}.
 %setup -q
 
 %build
+export CFLAGS=-fvisibility=default
 %{configure2_5x} --disable-static
 %{make}
 
