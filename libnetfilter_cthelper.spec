@@ -5,7 +5,7 @@
 
 Name:           libnetfilter_cthelper
 Version:        1.0.0
-Release:        3
+Release:        4
 Summary:        Interface to the user-space helper infrastructure
 Group:          System/Libraries
 License:        GPL
