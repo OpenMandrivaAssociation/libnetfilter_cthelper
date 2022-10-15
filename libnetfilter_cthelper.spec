@@ -4,8 +4,8 @@
 %define debug_package %{nil}
 
 Name:           libnetfilter_cthelper
-Version:        1.0.0
-Release:        5
+Version:        1.0.1
+Release:        1
 Summary:        Interface to the user-space helper infrastructure
 Group:          System/Libraries
 License:        GPL
