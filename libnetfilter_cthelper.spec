@@ -9,7 +9,7 @@ Release:        2
 Summary:        Interface to the user-space helper infrastructure
 Group:          System/Libraries
 License:        GPL
-URL:            http://www.netfilter.org/projects/libnetfilter_cthelper/
+URL:            https://www.netfilter.org/projects/libnetfilter_cthelper/
 Source0:        http://www.netfilter.org/projects/libnetfilter_cthelper/files/libnetfilter_cthelper-%{version}.tar.bz2
 Source1:        http://www.netfilter.org/projects/libnetfilter_cthelper/files/libnetfilter_cthelper-%{version}.tar.bz2.sig
 BuildRequires: pkgconfig(libmnl) >= 1.0.3
