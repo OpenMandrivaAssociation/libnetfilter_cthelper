@@ -12,6 +12,7 @@ License:        GPL
 URL:            https://www.netfilter.org/projects/libnetfilter_cthelper/
 Source0:        http://www.netfilter.org/projects/libnetfilter_cthelper/files/libnetfilter_cthelper-%{version}.tar.bz2
 Source1:        http://www.netfilter.org/projects/libnetfilter_cthelper/files/libnetfilter_cthelper-%{version}.tar.bz2.sig
+BuildRequires:	make
 BuildRequires: pkgconfig(libmnl) >= 1.0.3
 
 %description
